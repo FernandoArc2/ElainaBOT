@@ -32,7 +32,7 @@ module.exports = options = (headless, start) => {
         // executablePath: execPath,
         useChrome: true,
         killProcessOnBrowserClose: true,
-        throwErrorOnTosBlock: false,
+        throwErrorOnTosBlock: true,
         chromiumArgs: [
             '--no-sandbox',
             '--disable-setuid-sandbox',
